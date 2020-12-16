@@ -29,9 +29,9 @@ $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
 ```
 
-適当な文字を入力
-入力するとGPIO4ピンの状態に応じてGPIO25ピンの電圧が変化する
-GPIO4がhighのときGPIO25はlowとなる
+適当な文字を入力<br>
+入力するとGPIO4ピンの状態に応じてGPIO25ピンの電圧が変化する<br>
+GPIO4がhighのときGPIO25はlowとなる<br>
 多少タイムラグが有るためGPIO4に印加する電圧はしばらく保持する必要がある
 ```
 $ echo hoge > /dev/myled0
