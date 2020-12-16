@@ -5,6 +5,7 @@ raspberry pi 4において簡単なGPIO操作を行うためのデバイスド�
 
 ## 動作説明
 GPIO4ピンの状態を読み、その状態によってGPIO25ピンへ電圧出力を変化させる
+[動作動画](https://youtu.be/JqhvszT88Q4)
 
 ## 動作環境
 - OS : ubuntu20.04
